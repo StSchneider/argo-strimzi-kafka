@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/StSchneider/argo-strimzi-kafka
+    repoURL: https://github.com/StSchneider/argo-strimzi-kafka.git
     targetRevision: HEAD
     path: kafka-cluster/strimzi-kafka-cluster
   destination:
