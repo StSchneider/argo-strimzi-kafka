@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ehienabs/civo-kafka.git
+    repoURL: https://github.com/StSchneider/argo-strimzi-kafka
     targetRevision: HEAD
-    path: apk-cluster/strimzi-apk-cluster
+    path: kafka-cluster/strimzi-kafka-cluster
   destination:
     name: in-cluster
     namespace: default
